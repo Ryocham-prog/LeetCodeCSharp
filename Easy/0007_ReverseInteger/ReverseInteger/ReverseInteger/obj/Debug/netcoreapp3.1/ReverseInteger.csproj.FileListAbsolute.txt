@@ -1,0 +1,12 @@
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0007_ReverseInteger\ReverseInteger\ReverseInteger\bin\Debug\netcoreapp3.1\ReverseInteger.exe
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0007_ReverseInteger\ReverseInteger\ReverseInteger\bin\Debug\netcoreapp3.1\ReverseInteger.deps.json
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0007_ReverseInteger\ReverseInteger\ReverseInteger\bin\Debug\netcoreapp3.1\ReverseInteger.runtimeconfig.json
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0007_ReverseInteger\ReverseInteger\ReverseInteger\bin\Debug\netcoreapp3.1\ReverseInteger.runtimeconfig.dev.json
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0007_ReverseInteger\ReverseInteger\ReverseInteger\bin\Debug\netcoreapp3.1\ReverseInteger.dll
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0007_ReverseInteger\ReverseInteger\ReverseInteger\bin\Debug\netcoreapp3.1\ReverseInteger.pdb
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0007_ReverseInteger\ReverseInteger\ReverseInteger\obj\Debug\netcoreapp3.1\ReverseInteger.AssemblyInfoInputs.cache
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0007_ReverseInteger\ReverseInteger\ReverseInteger\obj\Debug\netcoreapp3.1\ReverseInteger.AssemblyInfo.cs
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0007_ReverseInteger\ReverseInteger\ReverseInteger\obj\Debug\netcoreapp3.1\ReverseInteger.csproj.CoreCompileInputs.cache
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0007_ReverseInteger\ReverseInteger\ReverseInteger\obj\Debug\netcoreapp3.1\ReverseInteger.dll
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0007_ReverseInteger\ReverseInteger\ReverseInteger\obj\Debug\netcoreapp3.1\ReverseInteger.pdb
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0007_ReverseInteger\ReverseInteger\ReverseInteger\obj\Debug\netcoreapp3.1\ReverseInteger.genruntimeconfig.cache
