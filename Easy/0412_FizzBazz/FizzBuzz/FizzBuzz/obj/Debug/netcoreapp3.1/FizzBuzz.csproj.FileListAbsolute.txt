@@ -1,0 +1,13 @@
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0412_FizzBazz\FizzBuzz\FizzBuzz\bin\Debug\netcoreapp3.1\FizzBuzz.exe
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0412_FizzBazz\FizzBuzz\FizzBuzz\bin\Debug\netcoreapp3.1\FizzBuzz.deps.json
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0412_FizzBazz\FizzBuzz\FizzBuzz\bin\Debug\netcoreapp3.1\FizzBuzz.runtimeconfig.json
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0412_FizzBazz\FizzBuzz\FizzBuzz\bin\Debug\netcoreapp3.1\FizzBuzz.runtimeconfig.dev.json
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0412_FizzBazz\FizzBuzz\FizzBuzz\bin\Debug\netcoreapp3.1\FizzBuzz.dll
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0412_FizzBazz\FizzBuzz\FizzBuzz\bin\Debug\netcoreapp3.1\FizzBuzz.pdb
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0412_FizzBazz\FizzBuzz\FizzBuzz\obj\Debug\netcoreapp3.1\FizzBuzz.csprojAssemblyReference.cache
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0412_FizzBazz\FizzBuzz\FizzBuzz\obj\Debug\netcoreapp3.1\FizzBuzz.AssemblyInfoInputs.cache
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0412_FizzBazz\FizzBuzz\FizzBuzz\obj\Debug\netcoreapp3.1\FizzBuzz.AssemblyInfo.cs
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0412_FizzBazz\FizzBuzz\FizzBuzz\obj\Debug\netcoreapp3.1\FizzBuzz.csproj.CoreCompileInputs.cache
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0412_FizzBazz\FizzBuzz\FizzBuzz\obj\Debug\netcoreapp3.1\FizzBuzz.dll
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0412_FizzBazz\FizzBuzz\FizzBuzz\obj\Debug\netcoreapp3.1\FizzBuzz.pdb
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0412_FizzBazz\FizzBuzz\FizzBuzz\obj\Debug\netcoreapp3.1\FizzBuzz.genruntimeconfig.cache
