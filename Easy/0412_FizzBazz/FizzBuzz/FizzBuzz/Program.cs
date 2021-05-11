@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace FizzBuzz
 {
@@ -8,7 +9,27 @@ namespace FizzBuzz
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
+            var fibz = new Program();
+            var n = 30;
+
+            fibz.FizzBuzz(n);
+            fibz.FizzBuzzLinQ(n);
         }
+
+        public IList<string> FizzBuzzLinQ(int n)
+        {
+            if (n < 1 && 10000 < n) return null;
+
+            var FizzBuzzList = Enumerable.Range(1, n).Select(i =>
+                                                                 (i % 15 == 0) ? "FizzBuzz" :
+                                                                 (i % 3 == 0) ? "Fizz" :
+                                                                 (i % 5 == 0) ? "Buzz" :
+                                                                 i.ToString());
+            var rtn = FizzBuzzList.ToList();
+            return rtn;
+        }
+
         public IList<string> FizzBuzz(int n)
         {
             if (n < 1 && 10000 < n) return null;
