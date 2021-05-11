@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace PalindromeNumber
 {
@@ -8,14 +9,13 @@ namespace PalindromeNumber
         {
             Console.WriteLine("Hello World!");
 
-            var solution = new Solution();
+            var palNum = new Program();
             var x = 121;
-            solution.IsPalindrome(x);
+            palNum.IsPalindrome(x);
+            palNum.IsPalindrome2(x);
         }
-    }
 
-    public class Solution
-    {
+        // Runtime: 72 ms
         public bool IsPalindrome(int x)
         {
             if (x < 0) return false;
@@ -24,18 +24,31 @@ namespace PalindromeNumber
             var len = strNum.Length;
             if (len == 1) return true;
 
-            var reverseNum = string.Empty;
+            var reverseNum = new StringBuilder();
             for (int i = len; i > 0; i--)
             {
-                reverseNum += strNum.Substring(i - 1, 1);
+                reverseNum.Append(strNum.Substring(i - 1, 1));
             }
-
-            if (strNum == reverseNum)
-            {
-                return true;
-            }
-
-            return false;
+            return strNum == reverseNum.ToString();
         }
+
+        // Runtime: 60 ms
+        public bool IsPalindrome2(int x)
+        {
+            if (x < 0) return false;
+
+            var strNum = x.ToString();
+            var len = strNum.Length;
+            if (len == 1) return true;
+
+            var compareCount = len / 2;
+
+            for (int i = 0; i < compareCount; i++)
+            {
+                if (strNum.Substring(i, 1) != strNum.Substring(len - 1 - i, 1)) return false;
+            }
+            return true;
+        }
+
     }
 }
