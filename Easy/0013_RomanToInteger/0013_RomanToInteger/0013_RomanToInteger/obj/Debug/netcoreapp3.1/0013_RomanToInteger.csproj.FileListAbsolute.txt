@@ -1,0 +1,13 @@
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0013_RomanToInteger\0013_RomanToInteger\0013_RomanToInteger\bin\Debug\netcoreapp3.1\0013_RomanToInteger.exe
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0013_RomanToInteger\0013_RomanToInteger\0013_RomanToInteger\bin\Debug\netcoreapp3.1\0013_RomanToInteger.deps.json
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0013_RomanToInteger\0013_RomanToInteger\0013_RomanToInteger\bin\Debug\netcoreapp3.1\0013_RomanToInteger.runtimeconfig.json
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0013_RomanToInteger\0013_RomanToInteger\0013_RomanToInteger\bin\Debug\netcoreapp3.1\0013_RomanToInteger.runtimeconfig.dev.json
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0013_RomanToInteger\0013_RomanToInteger\0013_RomanToInteger\bin\Debug\netcoreapp3.1\0013_RomanToInteger.dll
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0013_RomanToInteger\0013_RomanToInteger\0013_RomanToInteger\bin\Debug\netcoreapp3.1\0013_RomanToInteger.pdb
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0013_RomanToInteger\0013_RomanToInteger\0013_RomanToInteger\obj\Debug\netcoreapp3.1\0013_RomanToInteger.csprojAssemblyReference.cache
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0013_RomanToInteger\0013_RomanToInteger\0013_RomanToInteger\obj\Debug\netcoreapp3.1\0013_RomanToInteger.AssemblyInfoInputs.cache
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0013_RomanToInteger\0013_RomanToInteger\0013_RomanToInteger\obj\Debug\netcoreapp3.1\0013_RomanToInteger.AssemblyInfo.cs
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0013_RomanToInteger\0013_RomanToInteger\0013_RomanToInteger\obj\Debug\netcoreapp3.1\0013_RomanToInteger.csproj.CoreCompileInputs.cache
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0013_RomanToInteger\0013_RomanToInteger\0013_RomanToInteger\obj\Debug\netcoreapp3.1\0013_RomanToInteger.dll
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0013_RomanToInteger\0013_RomanToInteger\0013_RomanToInteger\obj\Debug\netcoreapp3.1\0013_RomanToInteger.pdb
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0013_RomanToInteger\0013_RomanToInteger\0013_RomanToInteger\obj\Debug\netcoreapp3.1\0013_RomanToInteger.genruntimeconfig.cache
