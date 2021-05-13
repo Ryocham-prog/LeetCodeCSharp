@@ -1,0 +1,12 @@
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0020_ValidParentheses\ValidParentheses\ValidParentheses\bin\Debug\netcoreapp3.1\ValidParentheses.exe
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0020_ValidParentheses\ValidParentheses\ValidParentheses\bin\Debug\netcoreapp3.1\ValidParentheses.deps.json
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0020_ValidParentheses\ValidParentheses\ValidParentheses\bin\Debug\netcoreapp3.1\ValidParentheses.runtimeconfig.json
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0020_ValidParentheses\ValidParentheses\ValidParentheses\bin\Debug\netcoreapp3.1\ValidParentheses.runtimeconfig.dev.json
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0020_ValidParentheses\ValidParentheses\ValidParentheses\bin\Debug\netcoreapp3.1\ValidParentheses.dll
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0020_ValidParentheses\ValidParentheses\ValidParentheses\bin\Debug\netcoreapp3.1\ValidParentheses.pdb
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0020_ValidParentheses\ValidParentheses\ValidParentheses\obj\Debug\netcoreapp3.1\ValidParentheses.AssemblyInfoInputs.cache
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0020_ValidParentheses\ValidParentheses\ValidParentheses\obj\Debug\netcoreapp3.1\ValidParentheses.AssemblyInfo.cs
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0020_ValidParentheses\ValidParentheses\ValidParentheses\obj\Debug\netcoreapp3.1\ValidParentheses.csproj.CoreCompileInputs.cache
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0020_ValidParentheses\ValidParentheses\ValidParentheses\obj\Debug\netcoreapp3.1\ValidParentheses.dll
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0020_ValidParentheses\ValidParentheses\ValidParentheses\obj\Debug\netcoreapp3.1\ValidParentheses.pdb
+C:\Develop\LeetCode\LeetCodeCSharp\Easy\0020_ValidParentheses\ValidParentheses\ValidParentheses\obj\Debug\netcoreapp3.1\ValidParentheses.genruntimeconfig.cache
