@@ -1,0 +1,16 @@
+D:\Develop\LeetCode\LeetCodeCSharp\DFS\0938_RangeSumOfBST\test\bin\Debug\net5.0\test.exe
+D:\Develop\LeetCode\LeetCodeCSharp\DFS\0938_RangeSumOfBST\test\bin\Debug\net5.0\test.deps.json
+D:\Develop\LeetCode\LeetCodeCSharp\DFS\0938_RangeSumOfBST\test\bin\Debug\net5.0\test.runtimeconfig.json
+D:\Develop\LeetCode\LeetCodeCSharp\DFS\0938_RangeSumOfBST\test\bin\Debug\net5.0\test.runtimeconfig.dev.json
+D:\Develop\LeetCode\LeetCodeCSharp\DFS\0938_RangeSumOfBST\test\bin\Debug\net5.0\test.dll
+D:\Develop\LeetCode\LeetCodeCSharp\DFS\0938_RangeSumOfBST\test\bin\Debug\net5.0\ref\test.dll
+D:\Develop\LeetCode\LeetCodeCSharp\DFS\0938_RangeSumOfBST\test\bin\Debug\net5.0\test.pdb
+D:\Develop\LeetCode\LeetCodeCSharp\DFS\0938_RangeSumOfBST\test\obj\Debug\net5.0\test.csprojAssemblyReference.cache
+D:\Develop\LeetCode\LeetCodeCSharp\DFS\0938_RangeSumOfBST\test\obj\Debug\net5.0\test.GeneratedMSBuildEditorConfig.editorconfig
+D:\Develop\LeetCode\LeetCodeCSharp\DFS\0938_RangeSumOfBST\test\obj\Debug\net5.0\test.AssemblyInfoInputs.cache
+D:\Develop\LeetCode\LeetCodeCSharp\DFS\0938_RangeSumOfBST\test\obj\Debug\net5.0\test.AssemblyInfo.cs
+D:\Develop\LeetCode\LeetCodeCSharp\DFS\0938_RangeSumOfBST\test\obj\Debug\net5.0\test.csproj.CoreCompileInputs.cache
+D:\Develop\LeetCode\LeetCodeCSharp\DFS\0938_RangeSumOfBST\test\obj\Debug\net5.0\test.dll
+D:\Develop\LeetCode\LeetCodeCSharp\DFS\0938_RangeSumOfBST\test\obj\Debug\net5.0\ref\test.dll
+D:\Develop\LeetCode\LeetCodeCSharp\DFS\0938_RangeSumOfBST\test\obj\Debug\net5.0\test.pdb
+D:\Develop\LeetCode\LeetCodeCSharp\DFS\0938_RangeSumOfBST\test\obj\Debug\net5.0\test.genruntimeconfig.cache
