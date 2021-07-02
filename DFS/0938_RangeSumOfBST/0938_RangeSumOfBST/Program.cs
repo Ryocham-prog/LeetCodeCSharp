@@ -11,27 +11,21 @@
  *     }
  * }
  */
-public class Solution {
-    public int RangeSumBST(TreeNode root, int low, int high) {
-        
+public class Solution
+{
+    public int RangeSumBST(TreeNode root, int low, int high){
+
         if (root == null) return 0;
 
-        var sum = 0;
         // 計算範囲の最小値より小さい場合
         if (root.val < low)
-            sum += RangeSumBST(root.right, low, high);
+            return RangeSumBST(root.right, low, high);
         // 計算範囲の最小値より大きい場合
         else if (root.val > high)
-            sum += RangeSumBST(root.left, low, high);
-        // 計算対象の場合
-        else
-        {
-            sum += root.val;
-            sum += RangeSumBST(root.left, low, high);
-            sum += RangeSumBST(root.right, low, high);
-        }
+            return RangeSumBST(root.left, low, high);
 
-        return sum;      
+        // 計算対象の場合
+        return root.val + RangeSumBST(root.left, low, high) + RangeSumBST(root.right, low, high);
 
     }
 }
