@@ -12,30 +12,33 @@
  * }
  */
 public class Solution {
-    public TreeNode tmp;
-    
     public TreeNode IncreasingBST(TreeNode root) {
-        var result = new TreeNode(0);
-        tmp = result;
+        TreeNode prevNode = new TreeNode(-1);
+        TreeNode newRoot = new TreeNode(-1);
         
-        RemakeTree(root);
+        InOrder(root, ref prevNode, ref newRoot);
         
-        // ↓偶然の産物。何故resultが期待値になるのかが理解できない。(要理解)
-
-        // val=0の情報が不要なので、rightのみをreturn
-        return result.right;
+        return newRoot;
     }
     
-    private void RemakeTree(TreeNode node)
+    public static void InOrder(TreeNode root, ref TreeNode prevNode, ref TreeNode newRoot)
     {
-        if(node == null) return;
+        if (root == null) return;
         
-        RemakeTree(node.left);
-        node.left = null;
+        InOrder(root.left, ref prevNode, ref newRoot);
+        
+        if (prevNode.val == -1)
+        {
+            newRoot = new TreeNode(root.val);
+            prevNode = newRoot;
+        }
+        else
+        {
+            prevNode.right = new TreeNode(root.val);
+            prevNode = prevNode.right;
+        }
+        
+        InOrder(root.right, ref prevNode, ref newRoot);
 
-        tmp.right = node;
-        tmp = tmp.right;
-
-        RemakeTree(node.right);
     }
 }
