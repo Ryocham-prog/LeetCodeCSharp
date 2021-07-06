@@ -21,19 +21,19 @@ public class Solution {
     public IList<int> Preorder(Node root) {
         var result = new List<int>();
         
-        DFS(root, ref result);
+        DFS(root, result);
             
         return result;
     }
     
-    private void DFS(Node node, ref List<int> result)
+    private void DFS(Node node, List<int> result)
     {
         if(node == null) return;
         result.Add(node.val);
 
         foreach(var child in node.children)
         {
-            DFS(child, ref result);
+            DFS(child, result);
         }
     }
 }
