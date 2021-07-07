@@ -19,23 +19,22 @@ public class Node {
 
 public class Solution {
     public IList<int> Postorder(Node root) {
-        IList<int> result = new List<int>();
+        var result = new List<int>();
         if(root == null) return result;
 
         DFS(root, result);
-        result.Add(root.val);
         
         return result;
     }
     
-    private void DFS(Node node, IList<int> result)
+    private void DFS(Node node, List<int> result)
     {
-        if(node == null) return;
+        if(node.children == null) return;
         
         foreach(var child in node.children)
         {
             DFS(child, result);
-            result.Add(child.val);
         }
+        result.Add(node.val);
     }
 }
