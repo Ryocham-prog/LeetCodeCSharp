@@ -17,6 +17,7 @@ public class Node {
 }
 */
 
+// 最初に思いついた方法(412 ms)
 public class Solution {
     public int MaxDepth(Node root) {
         var result = 0;
@@ -42,7 +43,7 @@ public class Solution {
     }
 }
 
-// MaxDepthを使う方法もある模様
+// MaxDepthを使う方法もある模様(332 ms)
 public class Solution {
     public int MaxDepth(Node root) {
         if (root == null)
@@ -57,6 +58,23 @@ public class Solution {
             depth = Math.Max(depth, MaxDepth(child));
         }
         
+        return depth + 1;
+    }
+}
+
+// Linq使用(404 ms)
+public class Solution {
+    public int MaxDepth(Node root) {
+        if (root == null)
+        {
+            return 0;
+        }
+        
+        var depth = root.children
+            .Aggregate(0, (depthCount, child) => {
+                return Math.Max(depthCount, MaxDepth(child));
+            });
+       
         return depth + 1;
     }
 }
