@@ -11,6 +11,38 @@
  *     }
  * }
  */
+ // Listを引数に渡さないパターン (88 ms)
+public class Solution {
+    public bool IsCousins(TreeNode root, int x, int y) {
+        if(root == null) return false;
+
+        var infoList = DFS(root, 0, 0, x, y);
+
+        if(infoList.Count != 4) return false;
+
+        return ((infoList[0] == infoList[2]) && (infoList[1] != infoList[3]));
+    }
+    
+    private List<int> DFS(TreeNode node, int nowDepth, int nowParentVal, int x, int y)
+    {
+        if(node == null) return new List<int>();
+
+        var tmpList = new List<int>();
+        if(node.val == x || node.val == y)
+        {
+            tmpList.Add(nowDepth);
+            tmpList.Add(nowParentVal);
+        }
+        
+        tmpList.AddRange(DFS(node.right, nowDepth + 1, node.val, x, y));
+        tmpList.AddRange(DFS(node.left, nowDepth + 1, node.val,  x, y));
+        
+        return tmpList;
+    }
+}
+
+ // ---------------------------------------------
+ // 最初のコミット (92 ms) 
 public class Solution {
     public bool IsCousins(TreeNode root, int x, int y) {
         if(root == null) return false;
