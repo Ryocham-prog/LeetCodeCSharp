@@ -11,6 +11,29 @@
  *     }
  * }
  */
+ // refを使わないパターン(108 ms) 
+ public class Solution {
+    public int DiameterOfBinaryTree(TreeNode root) {
+        if (root == null) return 0;
+
+        var leftVal = height(root.left);
+        var rightVal = height(root.right);
+        
+        var leftDiameter = DiameterOfBinaryTree(root.left);
+        var rightDiameter = DiameterOfBinaryTree(root.right);
+        
+        return Math.Max(leftVal+rightVal, Math.Max(leftDiameter, rightDiameter));
+    }
+    
+    private int height(TreeNode root)
+    {
+        if (root == null) return 0;
+        return 1 + Math.Max(height(root.left), height(root.right));
+    }
+}
+
+ //---------------------------------------------------------
+ // refを使うパターン(88 ms)
 public class Solution {
     public int DiameterOfBinaryTree(TreeNode root) {
         var maxDiameter = 0;
